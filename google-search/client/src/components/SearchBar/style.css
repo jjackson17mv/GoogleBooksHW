@@ -1,0 +1,20 @@
+.search-form[type=search] {
+    width: 14.5rem;
+    border: 0.125rem solid maroon;
+    border-radius: 0;
+    background-position: 0.625rem 0.625rem;
+    background-repeat: no-repeat;
+    padding: 0.75rem 1.25rem 0.75rem 2rem;
+    transition: width 0.4s ease-in-out;
+    margin: 2rem 2rem .5rem 2rem;
+  }
+    
+  .search-form[type=search]:focus {
+    width: 120%;
+    transition: width 0.4s ease-in-out;
+  }  
+  
+  
+  .search-form[type=search]::placeholder {
+    font-weight: bold;
+  }
